@@ -19,3 +19,7 @@ Nur in dieser Produktivfassung wurden die globale Website-Testkennzeichnung und 
 GitHub Pages kann dieses Repository aus main und der Repositorywurzel statisch ausliefern. Die tatsächliche Pages-Aktivierung und Domain-/HTTPS-Konfiguration sind separat zu prüfen. Es ist kein Produktionsbuild und keine Paketinstallation erforderlich. Für lokale Entwicklung: npm run dev.
 
 Die historischen Prüfberichte unter Documentation beschreiben ihren jeweiligen damaligen Teststand. Die abgenommene POSTFLEX-Anschrift ist seit 23. November 2026 bestätigt. Aktueller Übergabebericht: Documentation/Produktion/Erstuebernahme.md.
+
+## Aktualisierung Kontaktformular
+
+Am 23. November 2026 ausdrücklich freigegebener Quellstand `4670c30dcbe00223ebe422f07c6d1b7ae7b12763` übernommen. Praktischer VoiceOver- und Versandtest durch Auftraggeber erfolgreich. Details und Rückkehrpunkt: Documentation/Produktion/Uebernahme-2026-11-23-Kontaktformular.md.
