@@ -1,0 +1,17 @@
+{
+  "provider": "GitHub Pages",
+  "phase": "test",
+  "url": "https://4k5mm85mj2-ship-it.github.io/Webseite/",
+  "repository": "4k5mm85mj2-ship-it/Webseite",
+  "source_branch": "main",
+  "source_directory": "/",
+  "development_branch": "work/wa01-ci-integration",
+  "authorization_date": "2026-11-22",
+  "authorization": "Stell unsere Änderungen immer über GitHub Pages zur Verfügung. Das ist ja unsere Testzeit.",
+  "requires_login": false,
+  "final_acceptance": "pending; real VoiceOver test remains open",
+  "previous_private_copy": {
+    "project_id": "appgprj_6b02d07a71c881919523979f43df3c98",
+    "status": "not used as acceptance URL"
+  }
+}

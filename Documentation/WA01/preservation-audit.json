@@ -1,0 +1,169 @@
+{
+  "baseline_commit": "a3129b499b0c6cb40f7a7ccc1be91f9de3fc6b60",
+  "pages": [
+    {
+      "page": "index.html",
+      "body_text_outside_header_identical": true,
+      "links_identical": true,
+      "single_h1": true,
+      "heading_order": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        2
+      ],
+      "lang": "de",
+      "duplicate_ids": [],
+      "images_have_alt": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "body_text_outside_header_identical": true,
+      "links_identical": true,
+      "single_h1": true,
+      "heading_order": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "lang": "de",
+      "duplicate_ids": [],
+      "images_have_alt": true
+    },
+    {
+      "page": "support.html",
+      "body_text_outside_header_identical": true,
+      "links_identical": true,
+      "single_h1": true,
+      "heading_order": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "lang": "de",
+      "duplicate_ids": [],
+      "images_have_alt": true
+    },
+    {
+      "page": "impressum.html",
+      "body_text_outside_header_identical": true,
+      "links_identical": true,
+      "single_h1": true,
+      "heading_order": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "lang": "de",
+      "duplicate_ids": [],
+      "images_have_alt": true
+    },
+    {
+      "page": "datenschutz.html",
+      "body_text_outside_header_identical": true,
+      "links_identical": true,
+      "single_h1": true,
+      "heading_order": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "lang": "de",
+      "duplicate_ids": [],
+      "images_have_alt": true
+    }
+  ],
+  "protected_files_unchanged": {
+    "assets/site.js": true,
+    "scripts/preview.mjs": true,
+    "package.json": true,
+    ".nojekyll": true,
+    ".gitignore": true
+  },
+  "internal_resources": {
+    "index.html": {
+      "exists": true,
+      "sha256": "132df83155a6da0f933f6da13e0d0cd35dc99ed33e1f9823f090e5dc45b5cc47"
+    },
+    "apps/mitgemischt/index.html": {
+      "exists": true,
+      "sha256": "681ce8ea4d1da232fea326438ffbc9d7bb18099e7eb34ef7cac6c7a0f324078a"
+    },
+    "support.html": {
+      "exists": true,
+      "sha256": "6ab183aa39926f08f4cea15178547a6267b643b9efce34ea6bb2ebe732507120"
+    },
+    "impressum.html": {
+      "exists": true,
+      "sha256": "fdd8f8215dc8c508fd9009dcdb9b1542462ba927fb079bd2d483b8891d6eddab"
+    },
+    "datenschutz.html": {
+      "exists": true,
+      "sha256": "97451df501273a59406a7e9bfc19182ba991e3cfd281355e7238dab216b0d95e"
+    },
+    "assets/favicon.svg": {
+      "exists": true,
+      "sha256": "2e7a2f597f4fcaed037df4be13cb0da50c1d8ab379aa563bade98c5e5306f1ec"
+    },
+    "assets/styles.css": {
+      "exists": true,
+      "sha256": "47e0b9085f1d01d3e1f3ad4c422ad3c7199d171807a38a1cdeba35d2a4cdf6c6"
+    },
+    "assets/home.css": {
+      "exists": true,
+      "sha256": "92523cdb8db9ba6965f2d32031debde3979d5f37ccceac57156aaa1844c101e0"
+    },
+    "assets/appearance.css": {
+      "exists": true,
+      "sha256": "cad03f8a9f512482ee3dbfd8a09dad55eb4826e6993a34df996c4fb9989189f2"
+    },
+    "assets/logos/BRG_Logo_dunkel.svg": {
+      "exists": true,
+      "sha256": "c8655e5d5df59284550b2a727e03c2b0b9593c95d0cdf473ab8bf76e59a61b17"
+    },
+    "assets/logos/BRG_Logo_hell.svg": {
+      "exists": true,
+      "sha256": "5ae2b43bf05e18865986c34a1fa80149884c5f35478ea6c8871d4f8cdaa14189"
+    },
+    "assets/logos/BRG_Logo_ohne_Claim_dunkel.svg": {
+      "exists": true,
+      "sha256": "75d43d0732c3bb902521215751cd1849afecd8c0f4e77cd71ec5e53fbd56b39d"
+    },
+    "assets/logos/BRG_Logo_ohne_Claim_hell.svg": {
+      "exists": true,
+      "sha256": "8ed1dd4b8bde8f242e27254a111f3157c03045d9516ef9dcdfeb74f4cf379ea9"
+    },
+    "assets/logos/BRG_Symbol_dunkel.svg": {
+      "exists": true,
+      "sha256": "6fdad79235b4862718ef8efad19b0e49d9128d492419fcf1398133f80418aac5"
+    },
+    "assets/logos/BRG_Symbol_hell.svg": {
+      "exists": true,
+      "sha256": "657b4623f42c2ba30c562f1bc283e88426773711a77bf4829c102b95c8293998"
+    },
+    "assets/site.js": {
+      "exists": true,
+      "sha256": "234705ada78091c44e0673dba89b0ceac426b1fe4bd49a827366f9fb9f7d2789"
+    }
+  },
+  "failures": []
+}

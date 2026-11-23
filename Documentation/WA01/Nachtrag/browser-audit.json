@@ -1,0 +1,781 @@
+{
+  "date": "2026-11-22",
+  "baseline_commit": "c26279d0116603d72a0213724cd9b2e5cdd7640c",
+  "browser": "Chrome on Linux",
+  "method": "Same-origin temporary QA iframe with visible page, width, font-size and color-scheme controls. Full page load checked before measurement. Rendered text nodes excluding aria-hidden illustrations and visually-hidden brand label. Required 4.5 normal / 3 large or bold text; no styles, markup or JS modified through browser evaluation.",
+  "cases": [
+    {
+      "page": "index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 42,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 16,
+      "color_scheme": "light",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 32,
+      "color_scheme": "light",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 16,
+      "color_scheme": "dark",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_px": 32,
+      "color_scheme": "dark",
+      "text_samples": 39,
+      "overflow": false,
+      "contrast_passes": true
+    }
+  ],
+  "total_text_samples": 3340,
+  "text_pairs": [
+    {
+      "foreground": "#31363B",
+      "background": "#F3F4F5",
+      "ratio": 11.077945,
+      "required": 4.5,
+      "observed_text_samples": 70,
+      "passes": true
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#092744",
+      "ratio": 15.159237,
+      "required": 4.5,
+      "observed_text_samples": 350,
+      "passes": true
+    },
+    {
+      "foreground": "#092744",
+      "background": "#FFFFFF",
+      "ratio": 15.159237,
+      "required": 4.5,
+      "observed_text_samples": 730,
+      "passes": true
+    },
+    {
+      "foreground": "#2477B5",
+      "background": "#092744",
+      "ratio": 3.162493,
+      "required": 3,
+      "observed_text_samples": 40,
+      "passes": true
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#2477B5",
+      "ratio": 4.793445,
+      "required": 4.5,
+      "observed_text_samples": 100,
+      "passes": true
+    },
+    {
+      "foreground": "#53585F",
+      "background": "#FFFFFF",
+      "ratio": 7.169844,
+      "required": 4.5,
+      "observed_text_samples": 190,
+      "passes": true
+    },
+    {
+      "foreground": "#31363B",
+      "background": "#FFFFFF",
+      "ratio": 12.199276,
+      "required": 4.5,
+      "observed_text_samples": 380,
+      "passes": true
+    },
+    {
+      "foreground": "#53585F",
+      "background": "#F3F4F5",
+      "ratio": 6.510807,
+      "required": 4.5,
+      "observed_text_samples": 30,
+      "passes": true
+    },
+    {
+      "foreground": "#092744",
+      "background": "#F3F4F5",
+      "ratio": 13.765832,
+      "required": 4.5,
+      "observed_text_samples": 40,
+      "passes": true
+    },
+    {
+      "foreground": "#E4E6E8",
+      "background": "#202830",
+      "ratio": 11.92286,
+      "required": 4.5,
+      "observed_text_samples": 190,
+      "passes": true
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#121820",
+      "ratio": 17.838483,
+      "required": 4.5,
+      "observed_text_samples": 620,
+      "passes": true
+    },
+    {
+      "foreground": "#BFC4C9",
+      "background": "#121820",
+      "ratio": 10.154899,
+      "required": 4.5,
+      "observed_text_samples": 150,
+      "passes": true
+    },
+    {
+      "foreground": "#E4E6E8",
+      "background": "#121820",
+      "ratio": 14.256143,
+      "required": 4.5,
+      "observed_text_samples": 260,
+      "passes": true
+    },
+    {
+      "foreground": "#BFC4C9",
+      "background": "#202830",
+      "ratio": 8.492861,
+      "required": 4.5,
+      "observed_text_samples": 70,
+      "passes": true
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#202830",
+      "ratio": 14.918884,
+      "required": 4.5,
+      "observed_text_samples": 120,
+      "passes": true
+    }
+  ],
+  "image_ratio_errors": 0,
+  "manual_checks": {
+    "full_home_logo_mobile": {
+      "loaded": true,
+      "natural": [
+        670,
+        200
+      ],
+      "rendered": [
+        335,
+        100
+      ]
+    },
+    "product_hero_image": {
+      "loaded": true,
+      "natural": [
+        1024,
+        1536
+      ],
+      "rendered": [
+        335,
+        502.5
+      ],
+      "filter": "none",
+      "meaningful_alt": true
+    },
+    "product_card_image": {
+      "loaded": true,
+      "natural": [
+        1024,
+        1536
+      ],
+      "rendered": [
+        288,
+        432
+      ],
+      "decorative_repeat_hidden": true
+    },
+    "game_description_enter_opens": true,
+    "game_description_space_closes": true,
+    "logo_returns_home": true,
+    "privacy_navigation": true
+  },
+  "not_tested": [
+    "Actual VoiceOver or desktop screenreader speech",
+    "Actual Safari or Firefox",
+    "Browser zoom / device settings: root font 200% used",
+    "Pixel-level contrast of user-supplied JPEG text: original image preserved; alternative description supplied"
+  ],
+  "failures": []
+}

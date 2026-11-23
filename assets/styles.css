@@ -1,0 +1,183 @@
+/* Mobile first: the single-column layout is the baseline. */
+:root{color-scheme:light;--brand-primary:#092744;--brand-secondary:#2477B5;--ink:var(--brand-primary);--text:#31363B;--muted:#53585F;--paper:#FFFFFF;--soft:#F3F4F5;--line:#CED2D6;--control:#5F666E;--focus:var(--brand-primary);--accent:var(--brand-secondary);--red:#ba3455;--radius:1.3rem;--page:70rem;--gutter:1.25rem;font-family:"Avenir Next",Avenir,"Segoe UI",system-ui,sans-serif;font-size:100%;font-synthesis:none}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:6rem}
+img{max-width:100%;height:auto}
+.hero-inner>*,.app-feature>*{min-width:0}
+body{margin:0;color:var(--text);background:var(--paper);line-height:1.7;-webkit-text-size-adjust:100%;overflow-wrap:anywhere}
+h1,h2,h3,p,ul,ol{margin-top:0}
+h1,h2,h3{color:var(--ink);line-height:1.12;letter-spacing:-.045em;text-wrap:balance}
+h1{font-size:clamp(2.5rem,10.5vw,4.8rem);font-weight:800}
+h2{font-size:clamp(2rem,7.7vw,3.25rem);margin-bottom:1.25rem;font-weight:750}
+h3{font-size:1.35rem}
+p{margin-bottom:1.2rem}
+a{color:var(--ink);text-underline-offset:.25em;text-decoration-thickness:.08em}
+a:hover{text-decoration-thickness:.14em}
+button{font:inherit}
+button,a,summary{-webkit-tap-highlight-color:transparent}
+button:not(:disabled),summary{cursor:pointer}
+:focus-visible{outline:3px solid var(--focus);outline-offset:4px;box-shadow:0 0 0 2px #FFFFFF}
+main:focus{outline:none}
+[hidden]{display:none!important}
+.container{width:calc(100% - var(--gutter)*2);max-width:var(--page);margin-inline:auto}
+.skip-link{position:fixed;z-index:10;top:.5rem;left:.5rem;padding:.8rem 1.2rem;background:var(--brand-primary);color:#FFFFFF;transform:translateY(-180%);border-radius:.5rem;font-weight:700}
+.skip-link:focus{transform:translateY(0)}
+.preview-note{margin:0;padding:.5rem 1rem;background:var(--soft);color:var(--text);text-align:center;font-size:.875rem;line-height:1.5}
+.site-header{background:var(--paper);border-bottom:1px solid var(--line)}
+.header-inner{min-height:5rem;display:flex;justify-content:space-between;align-items:center;gap:.8rem;padding-block:.85rem;flex-wrap:wrap}
+.brand{font-size:1rem;line-height:1.15;letter-spacing:-.025em;text-decoration:none;font-weight:850;display:inline-flex;gap:.3em;align-items:center;min-height:2.75rem;flex-wrap:wrap}
+.brand span{font-size:.875rem;font-weight:500;letter-spacing:0}
+.main-nav{display:flex;gap:.9rem;flex-wrap:wrap;align-items:center;font-size:.875rem}
+.main-nav a{display:inline-flex;align-items:center;min-height:2.75rem;text-decoration:none;white-space:normal}
+.main-nav a:hover,.main-nav a[aria-current=page]{text-decoration:underline}
+.hero{background:var(--brand-primary);color:#fff;overflow:hidden}
+.hero-inner{padding-block:2.7rem 1.7rem;display:grid;grid-template-columns:minmax(0,1fr);gap:1.5rem}
+.product-name{font-size:1.25rem;line-height:1.4;letter-spacing:-.015em;margin-bottom:1.1rem;font-weight:700;color:#fff}
+.hero h1{font-size:clamp(3.65rem,15vw,5rem);color:#fff;line-height:1.01;margin-bottom:1.4rem;letter-spacing:-.055em}
+.hero h1 span{color:var(--accent)}
+.hero-description{font-size:1.0625rem;line-height:1.65;max-width:31rem;margin-bottom:1.55rem;color:#FFFFFF}
+.desktop-break{display:none}
+.button{display:inline-flex;align-items:center;justify-content:center;min-height:3.1rem;max-width:100%;border:2px solid transparent;border-radius:.65rem;padding:.8rem 1.2rem;font-size:1rem;font-weight:700;line-height:1.45;text-align:center;text-decoration:none;transition:transform .15s ease}
+.button:hover{transform:translateY(-2px);text-decoration:none}
+.button-primary{background:var(--brand-secondary);color:#FFFFFF}
+.button-primary:hover{background:var(--brand-primary)}
+.hero .button-primary{background:var(--brand-secondary);color:#FFFFFF}
+.hero .button-primary:hover{background:var(--brand-primary);border-color:#FFFFFF}
+.button-secondary{background:var(--paper);border-color:var(--control);color:var(--ink)}
+.button-secondary:hover{background:var(--soft)}
+.button-light{background:var(--brand-secondary);color:#FFFFFF}
+.button-light:hover{background:var(--brand-primary);border-color:#FFFFFF}
+.hero-footnote{font-size:.875rem;margin-top:1rem;margin-bottom:0;color:#FFFFFF}
+.card-scene{height:20.5rem;position:relative;isolation:isolate;max-width:29rem;width:100%;margin-inline:auto;overflow:visible}
+.scene-caption{position:absolute;bottom:.25rem;left:0;right:0;text-align:center;color:#FFFFFF;font-size:.875rem;letter-spacing:.015em}
+.playing-card{background:#fffdf8;border:1px solid #e9e2dc;position:absolute;left:50%;top:2.2rem;width:8.6rem;height:12rem;border-radius:.8rem;box-shadow:0 1rem 2rem #020e2c40;transform-origin:center 80%;color:var(--ink)}
+.card-corner{position:absolute;top:.65rem;left:.7rem;font-family:Georgia,serif;font-weight:bold;font-size:1.25rem;line-height:1.1;text-align:center}
+.card-corner-bottom{top:auto;left:auto;right:.7rem;bottom:.65rem;transform:rotate(180deg)}
+.card-suit{display:grid;place-items:center;width:100%;height:100%;font-family:Georgia,serif;font-size:5rem;line-height:1}
+.card-club{transform:translateX(-88%) rotate(-23deg);top:3.1rem;z-index:1}
+.card-diamond{color:var(--red);transform:translateX(-46%) rotate(-2deg);top:1.8rem;z-index:2}
+.card-heart{color:var(--red);transform:translateX(-3%) rotate(20deg);top:3.4rem;z-index:3}
+.scene-note{background:#f9db69;position:absolute;z-index:4;bottom:2.3rem;left:50%;transform:translateX(-50%) rotate(-5deg);padding:.55rem 1rem;color:var(--ink);font-size:.9rem;line-height:1.5;font-weight:750;white-space:nowrap;border-radius:.35rem;box-shadow:0 .4rem 1rem #020e2c21;display:flex;align-items:center;gap:.8rem}
+.note-suits{letter-spacing:.1em}
+.intro-section,.games-section,.how-section,.access-section,.faq-section{padding-block:3.5rem}
+.eyebrow{font-size:.875rem;font-weight:750;line-height:1.5;letter-spacing:.06em;color:var(--muted);margin-bottom:1rem}
+.intro-layout,.access-layout,.faq-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:1.4rem}
+.intro-copy>p{max-width:40rem}
+.benefit-list{list-style:none;padding:0;margin:1.6rem 0 0;display:grid;gap:.85rem;font-size:1rem}
+.benefit-list li{display:flex;gap:.7rem;align-items:baseline;line-height:1.6}
+.benefit-list li>span{font-weight:bold;color:var(--ink);flex:none}
+.games-section{background:var(--soft)}
+.section-heading{max-width:37rem;margin-bottom:2rem}
+.section-heading>p:last-child{margin-bottom:0;max-width:32rem}
+.game-grid{display:grid;gap:1.2rem;align-items:start}
+.game-card{border:1px solid var(--line);border-radius:var(--radius);background:#fff;overflow:hidden}
+.game-card summary{display:block;list-style:none;min-height:3rem}
+summary::-webkit-details-marker{display:none}
+.game-card summary::marker{content:""}
+.game-card summary:hover .disclosure-label{text-decoration:underline;text-underline-offset:.2em}
+.game-card:has(summary:focus-visible){outline:3px solid var(--focus);outline-offset:5px}
+.game-card summary:focus-visible{outline-offset:-4px;border-radius:var(--radius)}
+.game-art{height:9.5rem;display:block;position:relative;background:#e1e9fb;overflow:hidden}
+.game-mau .game-art{background:#dce8fc}
+.game-twentyone .game-art{background:#fce9b0}
+.game-war .game-art{background:#e5e0f6}
+.game-sevens .game-art{background:#d9eee6}
+.mini-card{position:absolute;background:#fff;border:1px solid #c1cbe1;box-shadow:0 .45rem .9rem #172d6012;color:var(--ink);width:4.5rem;height:6.5rem;border-radius:.45rem;left:50%;top:1.5rem;padding:.25rem .5rem;font-family:Georgia,serif;font-size:1.2rem;font-weight:700;line-height:1.3}
+.mini-card>span{display:block;text-align:center;font-size:2.8rem;line-height:1.2}
+.mini-first{transform:translateX(-90%) rotate(-14deg)}
+.mini-second{transform:translateX(2%) rotate(12deg);color:var(--red)}
+.game-war .mini-second{color:var(--ink)}
+.game-war .mini-first{transform:translateX(-105%) rotate(-6deg)}
+.game-war .mini-second{transform:translateX(8%) rotate(6deg)}
+.game-sevens .mini-card{color:var(--red);transform:translateX(-155%) rotate(-8deg)}
+.game-sevens .mini-middle{transform:translateX(-50%);z-index:1;top:1rem}
+.game-sevens .mini-second{transform:translateX(55%) rotate(8deg)}
+.art-number{position:absolute;z-index:2;right:calc(50% - 6rem);bottom:1.2rem;display:grid;place-items:center;width:3.2rem;height:3.2rem;background:var(--ink);color:#fff;border-radius:50%;font-size:1.25rem;font-weight:800;border:3px solid #fce9b0}
+.game-info{padding:1.4rem;display:grid;justify-items:start}
+.game-title{font-size:1.55rem;letter-spacing:-.035em;font-weight:750;color:var(--ink);line-height:1.3}
+.game-players{font-size:.875rem;color:var(--muted);margin-top:.25rem}
+.game-teaser{font-size:1rem;margin-top:.8rem;min-height:3.4em}
+.disclosure-label{font-size:.875rem;font-weight:750;margin-top:1.1rem;color:var(--ink);width:100%;display:flex;justify-content:space-between;align-items:center;gap:.75rem}
+.disclosure-icon{position:relative;width:1.25rem;height:1.25rem;flex:none}
+.disclosure-icon::before,.disclosure-icon::after{content:"";position:absolute;top:50%;left:15%;width:70%;height:2px;background:currentColor}
+.disclosure-icon::after{transform:rotate(90deg)}
+details[open] .disclosure-icon::after{display:none}
+.open-label{display:none}
+details[open] .open-label{display:inline}
+details[open] .closed-label{display:none}
+.game-description{padding:0 1.4rem 1.4rem;font-size:1rem}
+.game-description::before{content:"";display:block;height:1px;background:var(--line);margin-bottom:1.2rem}
+.game-description p:last-child{margin-bottom:0}
+.steps{list-style:none;display:grid;gap:1.6rem;padding:0;margin:2rem 0 0}
+.steps li{border-top:1px solid var(--line);padding-top:1.2rem;position:relative;padding-left:3rem}
+.step-number{position:absolute;top:1.2rem;left:0;display:grid;place-items:center;width:2rem;height:2rem;border-radius:.6rem;background:var(--soft);color:var(--ink);font-size:.95rem;font-weight:750}
+.step-title{font-size:1.2rem;line-height:1.5;font-weight:750;color:var(--ink)}
+.steps p{margin-top:.5rem;margin-bottom:0}
+.access-section{background:var(--soft)}
+.access-symbol{position:relative;width:9rem;max-width:calc(100% - 1rem);height:8rem;margin:0 0 .5rem 1rem;color:var(--ink);overflow:hidden}
+.access-card{position:absolute;top:.8rem;left:.2rem;width:4.4rem;height:6.5rem;border:2px solid var(--ink);border-radius:.55rem;background:#fff;transform:rotate(-12deg);font-size:2rem;text-align:center;font-family:Georgia,serif;font-weight:bold;line-height:1.4}
+.sound-bar{position:absolute;top:3rem;width:.5rem;border-radius:1rem;background:var(--ink)}
+.bar-one{left:5rem;height:1rem;top:3.4rem}.bar-two{left:6rem;height:2.4rem;top:2.7rem}.bar-three{left:7rem;height:3.8rem;top:2rem}
+.access-copy{max-width:39rem}
+.text-link{font-weight:700;display:inline-block;min-height:2.75rem;padding-block:.5rem;line-height:1.6}
+.faq-list{border-top:1px solid var(--line)}
+.faq-list details{border-bottom:1px solid var(--line)}
+.faq-list summary{font-size:1.0625rem;font-weight:650;color:var(--ink);padding:1.15rem 2.1rem 1.15rem 0;position:relative;list-style:none;line-height:1.6}
+.faq-icon{position:absolute;top:1.4rem;right:.2rem}
+
+.faq-list details>div{padding-bottom:1.3rem;padding-right:.75rem}
+.faq-list p{margin-bottom:0}
+.contact-section{background:var(--brand-primary);color:#fff;padding-block:3rem}
+.contact-inner{display:flex;flex-direction:column;align-items:flex-start;gap:.7rem}
+.contact-section .eyebrow{color:#FFFFFF}
+.contact-section h2{color:#fff;font-size:clamp(2rem,6vw,2.6rem)}
+.contact-section p{color:#FFFFFF}
+.site-footer{padding-block:2rem;background:var(--paper);border-top:1px solid var(--line);font-size:.875rem;color:var(--muted)}
+.footer-inner{display:flex;flex-direction:column;gap:1rem}
+.footer-inner p{margin-bottom:0;line-height:1.7}
+.footer-inner strong{color:var(--ink)}
+.footer-inner nav{display:flex;flex-wrap:wrap;column-gap:1.4rem;row-gap:.2rem}
+.footer-inner nav>a{display:inline-flex;align-items:center;min-height:2.75rem}
+.page-main{padding-block:2.8rem 3.5rem}
+.page-heading{max-width:47rem;margin-bottom:2rem}
+.page-heading h1{margin-bottom:1.4rem}
+.page-heading>p:last-child{font-size:1.125rem;max-width:35rem}
+.prose{max-width:48rem}
+.prose h2,.support-topic h2,.contact-box h2{font-size:1.55rem;line-height:1.25;letter-spacing:-.025em;margin-top:2rem;margin-bottom:1rem}
+.prose h3{margin-top:1.6rem;font-size:1.2rem}
+.prose ul,.prose ol,.support-topic ul{padding-left:1.5rem}
+.prose li+li,.support-topic li+li{margin-top:.4rem}
+.prose address{font-style:normal;line-height:1.8;margin-bottom:1.5rem}
+.notice{background:var(--soft);border-left:4px solid var(--brand-secondary);padding:1rem 1.2rem;margin-bottom:2rem;border-radius:0 .7rem .7rem 0;color:var(--text);max-width:48rem}
+.notice p:last-child{margin-bottom:0}
+.contact-box{background:var(--soft);padding:1.4rem;border:1px solid var(--line);border-radius:var(--radius);margin-bottom:2.2rem}
+.contact-box h2{margin-top:0}
+.email-link{font-size:clamp(1rem,4.5vw,1.4rem);font-weight:650;display:inline-block;margin-bottom:1.3rem;max-width:100%}
+.button-row{display:flex;flex-wrap:wrap;gap:.75rem}
+.copy-status:empty{display:none}
+.copy-status{font-size:.875rem;margin:1rem 0 0;color:var(--ink)}
+.support-grid{display:grid;gap:1.5rem;margin-bottom:2rem}
+.support-topic h2{margin-top:0}
+.support-topic{padding-block:1.3rem;border-top:1px solid var(--line)}
+.access-help{background:var(--soft);border:none;padding:1.4rem;border-radius:var(--radius);margin-block:1.5rem 2.5rem;max-width:48rem}
+.access-help .eyebrow{margin-bottom:.7rem}
+.back-link{margin-top:2rem}
+@media(min-width:40rem){:root{--gutter:2rem}.hero-inner{padding-block:3.5rem 2rem}.card-scene{height:24rem}.playing-card{width:10.5rem;height:14.5rem}.card-suit{font-size:6rem}.card-corner{font-size:1.5rem}.card-scene .scene-note{bottom:2.8rem}.game-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.game-art{height:10rem}.hero h1{font-size:5.2rem}.contact-box{padding:2rem}}
+@media(min-width:48rem){.brand{font-size:1.2rem}.brand span{font-size:1rem}.main-nav{font-size:1rem;gap:1.8rem}.intro-section,.games-section,.how-section,.access-section,.faq-section{padding-block:5rem}.steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem}.steps li{padding-left:0;padding-top:4rem}.step-number{top:1rem}.access-layout{grid-template-columns:12rem minmax(0,1fr);gap:3rem;align-items:center}.access-symbol{transform:scale(1.2);margin-left:1.5rem}.footer-inner{flex-direction:row;justify-content:space-between;align-items:center}.support-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:3rem}.page-main{padding-block:4rem 5rem}}
+@media(min-width:62rem){.hero-inner{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:2rem;padding-block:4.5rem 5rem}.hero h1{font-size:clamp(5rem,6vw,6.2rem)}.hero-description{font-size:1.125rem}.hero-copy{padding-bottom:0}.card-scene{height:27rem;max-width:32rem}.playing-card{width:12rem;height:16.5rem;top:3rem}.card-club{top:4.2rem}.card-diamond{top:2.2rem}.card-heart{top:4.4rem}.card-suit{font-size:7rem}.card-corner{font-size:1.6rem}.scene-caption{bottom:0}.scene-note{bottom:2.3rem;font-size:1rem}.intro-layout{grid-template-columns:.9fr 1.1fr;gap:5rem}.intro-copy{padding-top:.5rem}.faq-layout{grid-template-columns:.9fr 1.1fr;gap:5rem}.contact-inner{flex-direction:row;align-items:center;justify-content:space-between;gap:3rem}.contact-inner>div{max-width:42rem}.contact-inner .button{flex:none}.desktop-break{display:block}.game-info{padding:1.7rem}.game-description{padding:0 1.7rem 1.7rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.button:hover{transform:none}}
+@media(forced-colors:active){.button,.game-card,.playing-card,.mini-card,.notice{border:2px solid CanvasText}.disclosure-icon::before,.disclosure-icon::after,.sound-bar{background:CanvasText}.hero,.contact-section{background:Canvas;color:CanvasText}.hero h1,.hero h1 span,.hero-description,.hero-footnote,.product-name,.contact-section h2,.contact-section p,.contact-section .eyebrow{color:CanvasText}}
+@media print{.site-header,.skip-link,.card-scene,.access-symbol,.button-row,.copy-status{display:none}.hero,.games-section,.access-section,.contact-section{background:#fff;color:#000}.hero h1,.hero h1 span,.hero p,.contact-section h2,.contact-section p{color:#000}.container{width:100%}details{break-inside:avoid}.intro-section,.games-section,.how-section,.access-section,.faq-section{padding-block:1.5rem}}
+
+/* Existing Mitgemischt illustration colors are product-specific, not BRG brand accents. */
+.card-scene,.game-art,.access-symbol{--ink:#172d60;--red:#ba3455}
+
+/* Busfahrer reuses the classic card style; all four existing entries stay unchanged. */
+.game-busdriver .game-art{display:grid;place-items:center;background:var(--soft)}
+.game-busdriver .busfahrer-art{display:block;width:100%;max-width:100%;height:100%;min-width:0}
+@media(min-width:40rem){.game-busdriver{grid-column:1/-1;width:calc((100% - 1.2rem)/2);justify-self:center}}
+@media(forced-colors:active){.game-busdriver .game-art{background:Canvas}}
+
+/* Campaign artwork keeps the existing game image area and remains fully visible. */
+.game-card .game-art.game-promo-art{background:var(--soft)}
+.game-promo-image{display:block;position:absolute;inset:0;width:100%;max-width:100%;height:100%;object-fit:contain}

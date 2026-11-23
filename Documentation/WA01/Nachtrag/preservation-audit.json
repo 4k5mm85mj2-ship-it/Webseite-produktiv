@@ -1,0 +1,75 @@
+{
+  "baseline_commit": "c26279d0116603d72a0213724cd9b2e5cdd7640c",
+  "pages": [
+    {
+      "page": "index.html",
+      "body_text_excluding_decorations_unchanged": true,
+      "link_destinations_unchanged": true,
+      "single_h1": true,
+      "duplicate_ids": false,
+      "all_image_alt_attributes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "body_text_excluding_decorations_unchanged": true,
+      "link_destinations_unchanged": true,
+      "single_h1": true,
+      "duplicate_ids": false,
+      "all_image_alt_attributes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "body_text_excluding_decorations_unchanged": false,
+      "link_destinations_unchanged": false,
+      "single_h1": true,
+      "duplicate_ids": false,
+      "all_image_alt_attributes": true,
+      "previous_main_words": 686,
+      "new_main_words": 351,
+      "reduction_percent": 48.8
+    },
+    {
+      "page": "support.html",
+      "body_text_excluding_decorations_unchanged": true,
+      "link_destinations_unchanged": true,
+      "single_h1": true,
+      "duplicate_ids": false,
+      "all_image_alt_attributes": true
+    },
+    {
+      "page": "impressum.html",
+      "body_text_excluding_decorations_unchanged": true,
+      "link_destinations_unchanged": true,
+      "single_h1": true,
+      "duplicate_ids": false,
+      "all_image_alt_attributes": true
+    }
+  ],
+  "failures": [],
+  "protected_files_byte_identical": {
+    "assets/site.js": true,
+    "assets/styles.css": true,
+    "assets/appearance.css": true,
+    "impressum.html": true,
+    "support.html": true,
+    "scripts/preview.mjs": true,
+    "package.json": true,
+    ".nojekyll": true,
+    "AGENTS.md": true,
+    "assets/logos/BRG_Symbol_hell.svg": true,
+    "assets/logos/BRG_Logo_dunkel.svg": true,
+    "assets/logos/BRG_Logo_hell.svg": true,
+    "assets/logos/BRG_Logo_ohne_Claim_hell.svg": true,
+    "assets/logos/BRG_Logo_ohne_Claim_dunkel.svg": true,
+    "assets/logos/BRG_Symbol_dunkel.svg": true
+  },
+  "user_image": {
+    "byte_identical": true,
+    "bytes": 282945,
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sha256": "7b2808375f2a2161e95d527894e0370dcd0a5d42267c30539ad7b5a978fd0e19"
+  }
+}

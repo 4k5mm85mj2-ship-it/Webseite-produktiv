@@ -1,0 +1,74 @@
+[
+  {
+    "file": "BRG_Logo_dunkel.svg",
+    "sha256": "c8655e5d5df59284550b2a727e03c2b0b9593c95d0cdf473ab8bf76e59a61b17",
+    "bytes": 1509,
+    "viewBox": "0 0 670 200",
+    "colors": [
+      "#092744",
+      "#2477B5",
+      "#FFFFFF"
+    ],
+    "live_text": true
+  },
+  {
+    "file": "BRG_Logo_hell.svg",
+    "sha256": "5ae2b43bf05e18865986c34a1fa80149884c5f35478ea6c8871d4f8cdaa14189",
+    "bytes": 1509,
+    "viewBox": "0 0 670 200",
+    "colors": [
+      "#092744",
+      "#2477B5",
+      "#FFFFFF"
+    ],
+    "live_text": true
+  },
+  {
+    "file": "BRG_Logo_ohne_Claim_dunkel.svg",
+    "sha256": "75d43d0732c3bb902521215751cd1849afecd8c0f4e77cd71ec5e53fbd56b39d",
+    "bytes": 1270,
+    "viewBox": "0 0 670 200",
+    "colors": [
+      "#092744",
+      "#2477B5",
+      "#FFFFFF"
+    ],
+    "live_text": true
+  },
+  {
+    "file": "BRG_Logo_ohne_Claim_hell.svg",
+    "sha256": "8ed1dd4b8bde8f242e27254a111f3157c03045d9516ef9dcdfeb74f4cf379ea9",
+    "bytes": 1270,
+    "viewBox": "0 0 670 200",
+    "colors": [
+      "#092744",
+      "#2477B5",
+      "#FFFFFF"
+    ],
+    "live_text": true
+  },
+  {
+    "file": "BRG_Symbol_dunkel.svg",
+    "sha256": "6fdad79235b4862718ef8efad19b0e49d9128d492419fcf1398133f80418aac5",
+    "bytes": 900,
+    "viewBox": "0 0 200 200",
+    "colors": [
+      "#092744",
+      "#2477B5",
+      "#FFFFFF"
+    ],
+    "live_text": false
+  },
+  {
+    "file": "BRG_Symbol_hell.svg",
+    "sha256": "657b4623f42c2ba30c562f1bc283e88426773711a77bf4829c102b95c8293998",
+    "bytes": 900,
+    "viewBox": "0 0 200 200",
+    "colors": [
+      "#092744",
+      "#2477B5",
+      "#FFFFFF"
+    ],
+    "live_text": false
+  }
+]

@@ -1,0 +1,53 @@
+/* Shared BRG colors follow the device preference. Product illustration colors stay scoped. */
+:root { color-scheme: light; }
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --ink: #FFFFFF;
+    --text: #E4E6E8;
+    --muted: #BFC4C9;
+    --paper: #121820;
+    --soft: #202830;
+    --line: #5F6973;
+    --control: #BFC4C9;
+    --focus: #FFFFFF;
+  }
+  .preview-note { background: var(--soft); color: var(--text); }
+  .hero, .brand-hero, .contact-section { background: var(--brand-primary); }
+  .site-footer { background: var(--paper); }
+  .button-primary, .hero .button-primary, .brand-hero .button-primary, .button-light {
+    background: var(--brand-secondary); color: #FFFFFF; border-color: #FFFFFF;
+  }
+  .button-primary:hover, .hero .button-primary:hover, .brand-hero .button-primary:hover, .button-light:hover {
+    background: var(--brand-primary); border-color: #FFFFFF;
+  }
+  .button-secondary { background: var(--paper); border-color: var(--control); color: var(--ink); }
+  .button-secondary:hover { background: var(--soft); }
+  .skip-link { background: #FFFFFF; color: var(--brand-primary); }
+  .game-card { background: var(--soft); }
+  .access-section, .access-help { background: var(--soft); }
+  .benefit-list li > span { color: var(--ink); }
+  .notice { background: var(--soft); border-color: var(--brand-secondary); color: var(--text); }
+  .notice h2, .notice h3 { color: var(--ink); }
+  :focus-visible, .game-card:has(summary:focus-visible), .game-card summary:focus-visible {
+    outline-color: #FFFFFF; box-shadow: 0 0 0 2px var(--brand-primary);
+  }
+  /* Preserve existing per-game illustrations and their dark-mode backgrounds. */
+  .game-art, .app-preview, .game-mau .game-art { background: #253c63; }
+  .game-twentyone .game-art { background: #493c25; }
+  .game-war .game-art { background: #393054; }
+  .game-sevens .game-art { background: #21443d; }
+  .playing-card, .mini-card, .access-card, .game-war .mini-second { color: #172d60; }
+  .card-diamond, .card-heart, .mini-second, .game-sevens .mini-card { color: #ba3455; }
+  .game-war .mini-second { color: #172d60; }
+  .art-number { background: #172d60; color: #FFFFFF; border-color: #493c25; }
+  .access-card { background: #fffdf8; border-color: #172d60; }
+}
+/* User-selected system contrast remains authoritative. */
+@media (forced-colors: active) {
+  :root { --ink: CanvasText; --text: CanvasText; --muted: CanvasText; --paper: Canvas; --soft: Canvas; --line: CanvasText; --control: ButtonText; --focus: Highlight; }
+  .hero, .brand-hero, .contact-section, .preview-note, .game-card, .game-art, .app-preview, .access-section, .access-help, .notice { background: Canvas; color: CanvasText; }
+  .hero h1, .hero h1 span, .hero p, .brand-note, .brand-note .eyebrow, .contact-section h2, .contact-section p, .contact-address { color: CanvasText; }
+  .button-primary, .button-secondary, .button-light, .hero .button-primary, .brand-hero .button-primary, .skip-link { color: ButtonText; background: ButtonFace; border-color: ButtonText; }
+  :focus-visible, .game-card:has(summary:focus-visible), .game-card summary:focus-visible { outline-color: Highlight; box-shadow: none; }
+}

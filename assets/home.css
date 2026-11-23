@@ -1,0 +1,58 @@
+/* Shared BRG navigation and the general landing page. */
+.contact-address{color:#FFFFFF;font-weight:650;overflow-wrap:anywhere}
+.brand-hero .hero-inner{padding-block:3.1rem;gap:2.25rem}
+.brand-hero h1{font-size:clamp(3rem,12.5vw,5rem);max-width:10ch}
+.brand-hero .hero-description{max-width:33rem}
+.brand-note{max-width:35rem;padding-top:1.5rem;border-top:1px solid #FFFFFF;color:#FFFFFF;font-size:1.0625rem}
+.brand-note .eyebrow{color:#FFFFFF}
+.brand-note p:last-child{margin-bottom:0}
+.principles-section,.apps-section{padding-block:3.5rem}
+.principle-grid{display:grid;gap:1.6rem;grid-template-columns:minmax(0,1fr)}
+.principle-item{border-top:2px solid var(--line);padding-top:1.3rem}
+.principle-item h3{font-size:1.35rem;line-height:1.3;letter-spacing:-.025em}
+.principle-item p{margin-bottom:0;max-width:34rem}
+.apps-section{background:var(--soft)}
+.app-feature{display:grid;grid-template-columns:minmax(0,1fr);border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);overflow:hidden}
+.app-preview{min-height:13rem;height:100%;background:#dce8fc}
+.app-preview .mini-card{top:2.5rem;width:5rem;height:7.5rem;font-size:1.35rem}
+.app-preview .mini-card>span{font-size:3.3rem;margin-top:.4rem}
+.app-feature-copy{padding:1.5rem}
+.app-feature-copy h3{font-size:2rem;line-height:1.15;margin-bottom:.5rem}
+.app-claim{font-size:1.125rem;color:var(--ink);font-weight:700;margin-bottom:1rem}
+.app-meta{color:var(--muted);font-size:.875rem;margin-bottom:1.4rem}
+.app-links{display:flex;flex-wrap:wrap;align-items:center;column-gap:1.4rem;row-gap:.5rem}
+.hero .app-links .text-link{color:#FFFFFF}
+@media(forced-colors:active){.hero .app-links .text-link{color:LinkText}}
+.content-note{font-size:.875rem;line-height:1.65;color:var(--muted);border-top:1px solid var(--line);margin-top:1.4rem;margin-bottom:0;padding-top:1.2rem}
+.product-nav{border-bottom:1px solid var(--line);background:var(--paper)}
+.product-nav .container{display:flex;gap:1.4rem;align-items:center;flex-wrap:wrap;padding-block:.4rem}
+.product-nav a{display:inline-flex;min-height:2.75rem;align-items:center;font-size:.875rem;line-height:1.5}
+.product-nav a[aria-current=page]{font-weight:750;text-decoration:none}
+@media(min-width:48rem){.principles-section,.apps-section{padding-block:5rem}.principle-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem}.app-feature{grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr)}.app-feature-copy{padding:2.5rem}.app-preview{min-height:20rem}.app-preview .mini-card{top:6rem}.product-nav a{font-size:1rem}}
+@media(min-width:62rem){.brand-hero .hero-inner{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);padding-block:4.5rem;gap:4rem}.brand-hero h1{font-size:5rem}.brand-note{padding-top:0;border-top:0;border-left:1px solid #FFFFFF;padding-left:2.5rem}}
+@media print{.brand-note{color:#000}.brand-note .eyebrow{color:#000}.app-preview,.product-nav{display:none}.app-feature{display:block}}
+
+/* Original SVG geometry is inlined to follow the page's appearance rather than
+   Safari Smart Invert's image-only filter. Keep sources in assets/logos intact. */
+.brand:has(.brand-logo){display:block;width:3.25rem;max-width:100%;line-height:0;min-height:2.75rem}
+.brand-logo{display:block;width:100%;aspect-ratio:1}
+.brand-logo .ci-logo{display:none;width:100%;max-width:100%;height:100%}
+.brand-logo .ci-symbol.ci-light{display:block}
+.main-nav .nav-section-current{font-weight:750;text-decoration:underline;text-decoration-thickness:.14em}
+@media(min-width:40rem){.brand:has(.brand-logo){width:20.94rem}.brand-logo{aspect-ratio:670/200}.brand-logo .ci-symbol.ci-light{display:none}.brand-logo .ci-compact.ci-light{display:block}}
+@media(min-width:64rem){.brand:has(.brand-logo){width:26.8rem}.brand-logo .ci-compact.ci-light{display:none}.brand-logo .ci-full.ci-light{display:block}}
+@media(prefers-color-scheme:dark){.brand-logo .ci-logo.ci-light{display:none}.brand-logo .ci-symbol.ci-dark{display:block}}
+@media(min-width:40rem) and (prefers-color-scheme:dark){.brand-logo .ci-symbol.ci-dark{display:none}.brand-logo .ci-compact.ci-dark{display:block}}
+@media(min-width:64rem) and (prefers-color-scheme:dark){.brand-logo .ci-compact.ci-dark{display:none}.brand-logo .ci-full.ci-dark{display:block}}
+
+/* Full original wordmark remains visible in the homepage introduction on mobile. */
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.brand-intro{width:100%;max-width:25rem;margin-bottom:1.6rem}
+.brand-intro .ci-logo{display:block;width:100%;max-width:100%;height:auto}
+/* The header shows the wordmark from this same breakpoint; avoid a second logo. */
+@media screen and (min-width:40rem){.brand-intro{display:none}}
+/* User-provided product illustration, always complete and without color filters. */
+.product-hero-image{width:100%;max-width:26rem;min-width:0;margin-inline:auto}
+.product-hero-image img{display:block;width:100%;max-width:100%;height:auto;border-radius:.8rem}
+.app-preview.product-preview{height:auto;min-height:0;display:grid;grid-template-columns:minmax(0,1fr);place-items:center;padding:1rem;background:var(--soft)}
+.product-preview img{display:block;width:100%;max-width:18rem;height:auto;border-radius:.65rem}

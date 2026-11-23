@@ -1,0 +1,9 @@
+{
+  "name": "brg-entwicklung-website",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Statische Mobile-First-Website von BRG Entwicklung mit Mitgemischt",
+  "scripts": {
+    "dev": "node scripts/preview.mjs"
+  }
+}

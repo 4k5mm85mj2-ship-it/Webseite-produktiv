@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="670" height="200" viewBox="0 0 670 200" role="img" aria-label="BRG Entwicklung – Genial einfach. Für alle."><g transform="translate(0 0)"><rect x="8" y="8" width="184" height="184" rx="43" fill="#092744"/>
+ <circle cx="100" cy="77" r="19" fill="#FFFFFF"/><circle cx="57" cy="91" r="13" fill="#FFFFFF"/><circle cx="143" cy="91" r="13" fill="#FFFFFF"/>
+ <path d="M67 139 C72 116 86 109 100 109 C114 109 128 116 133 139" stroke="#FFFFFF" stroke-width="17" fill="none" stroke-linecap="round"/>
+ <path d="M29 139 C33 123 43 117 56 117 C63 117 69 120 73 124" stroke="#FFFFFF" stroke-width="11" fill="none" stroke-linecap="round"/>
+ <path d="M127 124 C132 120 138 117 145 117 C158 117 168 123 172 139" stroke="#FFFFFF" stroke-width="11" fill="none" stroke-linecap="round"/>
+ <path d="M27 151 Q100 194 173 151" stroke="#2477B5" stroke-width="13" fill="none" stroke-linecap="round"/></g><path d="M222 27 V174" stroke="#092744" stroke-width="3" stroke-linecap="round"/>
+ <text x="250" y="92" fill="#092744" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="67">BRG</text>
+ <text x="251" y="139" fill="#092744" font-family="Arial,Helvetica,sans-serif" font-weight="600" font-size="39">Entwicklung</text>
+ </svg>

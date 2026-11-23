@@ -1,0 +1,1100 @@
+{
+  "date": "2026-11-22",
+  "browser": "Cloud Chrome, Linux",
+  "method": "Temporary same-origin QA iframe controlled through visible width, font-size, page and color-scheme controls; iframe load completion checked before each page matrix. Actual child prefers-color-scheme matches confirmed. No device emulation or real Safari/VoiceOver.",
+  "cases": [
+    {
+      "page": "index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 43,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "support.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 44,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "impressum.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 28,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 16,
+      "color_scheme": "light",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 16,
+      "color_scheme": "dark",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 390,
+      "content_width": 375,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 768,
+      "content_width": 753,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1024,
+      "content_width": 1009,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "datenschutz.html",
+      "viewport_width": 1440,
+      "content_width": 1425,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 56,
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "dark",
+      "text_samples": 86,
+      "details": "all 9 disclosures expanded",
+      "overflow": false,
+      "text_contrast_passes": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "viewport_width": 320,
+      "content_width": 305,
+      "root_font_size": 32,
+      "color_scheme": "light",
+      "text_samples": 86,
+      "details": "all 9 disclosures expanded",
+      "overflow": false,
+      "text_contrast_passes": true
+    }
+  ],
+  "logo_loads": [
+    {
+      "file": "BRG_Logo_hell.svg",
+      "natural_width": 670,
+      "natural_height": 200,
+      "rendered_width": 428.796875,
+      "rendered_height": 127.984375,
+      "loaded": true
+    },
+    {
+      "file": "BRG_Logo_dunkel.svg",
+      "natural_width": 670,
+      "natural_height": 200,
+      "rendered_width": 428.796875,
+      "rendered_height": 127.984375,
+      "loaded": true
+    },
+    {
+      "file": "BRG_Logo_ohne_Claim_dunkel.svg",
+      "natural_width": 670,
+      "natural_height": 200,
+      "rendered_width": 335.03125,
+      "rendered_height": 100,
+      "loaded": true
+    },
+    {
+      "file": "BRG_Logo_ohne_Claim_hell.svg",
+      "natural_width": 670,
+      "natural_height": 200,
+      "rendered_width": 335.03125,
+      "rendered_height": 100,
+      "loaded": true
+    },
+    {
+      "file": "BRG_Symbol_hell.svg",
+      "natural_width": 200,
+      "natural_height": 200,
+      "rendered_width": 52,
+      "rendered_height": 52,
+      "loaded": true
+    },
+    {
+      "file": "BRG_Symbol_dunkel.svg",
+      "natural_width": 200,
+      "natural_height": 200,
+      "rendered_width": 52,
+      "rendered_height": 52,
+      "loaded": true
+    }
+  ],
+  "manual_browser_checks": {
+    "skip_link_focuses_main": true,
+    "keyboard_tab_reaches_home_logo": true,
+    "light_focus": "3px navy outline, offset 4px, white 2px inner ring",
+    "dark_focus": "3px white outline, offset 4px, navy 2px inner ring",
+    "homepage_to_mitgemischt": true,
+    "mitgemischt_logo_returns_to_general_home": true,
+    "all_9_disclosures_open_via_enter": true,
+    "disclosure_closes_via_space": true,
+    "copy_email_enter_success": true,
+    "actual_clipboard_paste": "brg.entwicklung@gmail.com",
+    "ki_link_reaches": "impressum.html#ki-hinweis",
+    "chrome_accessibility_tree": "One named logo home link; decorative logo image hidden; main and navigation landmarks; one h1; labeled disclosure buttons with collapsed state; decorative cards absent."
+  },
+  "not_performed": [
+    "Real VoiceOver on iPhone/iPad or Mac",
+    "NVDA/JAWS speech output",
+    "Real Safari/Firefox rendering",
+    "Actual browser zoom or operating-system text enlargement; root font 200% and 320px viewport used instead",
+    "Forced-colors device mode and printed output; CSS only inspected"
+  ]
+}

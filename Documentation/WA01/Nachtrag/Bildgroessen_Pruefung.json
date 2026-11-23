@@ -1,0 +1,117 @@
+{
+  "baseline_commit": "6b7beb20c3a726698843013475624a290cbb5cc9",
+  "release": "e753be969422",
+  "css_versions": {
+    "styles": "19f2342b68f5",
+    "home": "300642fcc979",
+    "appearance": "cad03f8a9f51"
+  },
+  "pages": [
+    {
+      "page": "index.html",
+      "text_unchanged": true,
+      "routes_and_fragments_unchanged": true,
+      "stylesheet_hashes_match": true
+    },
+    {
+      "page": "apps/mitgemischt/index.html",
+      "text_unchanged": true,
+      "routes_and_fragments_unchanged": true,
+      "stylesheet_hashes_match": true
+    },
+    {
+      "page": "support.html",
+      "text_unchanged": true,
+      "routes_and_fragments_unchanged": true,
+      "stylesheet_hashes_match": true
+    },
+    {
+      "page": "impressum.html",
+      "text_unchanged": true,
+      "routes_and_fragments_unchanged": true,
+      "stylesheet_hashes_match": true
+    },
+    {
+      "page": "datenschutz.html",
+      "text_unchanged": true,
+      "routes_and_fragments_unchanged": true,
+      "stylesheet_hashes_match": true
+    }
+  ],
+  "protected_files_byte_identical": [
+    "assets/site.js",
+    "assets/appearance.css",
+    "assets/mitgemischt-hauptillustration.jpg",
+    "package.json",
+    "scripts/preview.mjs",
+    "assets/logos/BRG_Symbol_hell.svg",
+    "assets/logos/BRG_Logo_dunkel.svg",
+    "assets/logos/BRG_Logo_hell.svg",
+    "assets/logos/BRG_Logo_ohne_Claim_hell.svg",
+    "assets/logos/BRG_Logo_ohne_Claim_dunkel.svg",
+    "assets/logos/BRG_Symbol_dunkel.svg"
+  ],
+  "version_helper_idempotent": true,
+  "browser": "Chrome, Linux",
+  "matrix": {
+    "pages": 5,
+    "viewport_widths": [
+      320,
+      390,
+      402,
+      768,
+      1024,
+      1440
+    ],
+    "root_font_percent": [
+      100,
+      200
+    ],
+    "schemes": [
+      "light",
+      "dark"
+    ],
+    "cases": 120,
+    "image_measurements": 192,
+    "image_outside_viewport": 0,
+    "images_clipped_by_overflow_ancestors": 0,
+    "text_box_overflow": 0
+  },
+  "negative_control": {
+    "viewport_content_width": 375,
+    "old_css_logo_width": 670,
+    "old_css_poster_width": 1024,
+    "clipped_images": 2,
+    "overflowing_text_boxes": 5
+  },
+  "fallback_new_base_old_home_css": {
+    "viewport_content_width": 375,
+    "image_widths": [
+      52,
+      335,
+      333
+    ],
+    "clipped_images": 0,
+    "overflowing_text_boxes": 0
+  },
+  "mobile_402_at_100_percent": {
+    "content_width": 387,
+    "full_logo": [
+      347,
+      103.578125
+    ],
+    "product_hero": [
+      347,
+      520.5
+    ],
+    "product_preview": [
+      288,
+      432
+    ]
+  },
+  "limits": [
+    "No physical iPhone/Safari or VoiceOver test.",
+    "The physical device cache was not read; its observed failure was reproduced by combining the current HTML with the previous stylesheet."
+  ],
+  "failures": []
+}
