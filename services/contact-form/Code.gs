@@ -1,7 +1,7 @@
 /* Separate standalone Apps Script project. No triggers; no existing support code. */
 const CONTACT = Object.freeze({
   recipient: 'brg.entwicklung@gmail.com',
-  back: 'https://4k5mm85mj2-ship-it.github.io/Webseite/support.html#kontaktformular',
+  back: 'https://www.brg-entwicklung.de/support.html#kontaktformular',
   maxDaily: 30
 });
 

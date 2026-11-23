@@ -33,3 +33,7 @@ Projekt: BRG Website-Kontaktformular, Script-ID 1Nif_k6aX2ecutdn2i9MuysAVyAYLyMC
 Deployment Version 1: AKfycbykPqbm77e9PSlT4xqNaW574HSzVzBRyfw8VPppIv8Kb0cc0wfp0hN1sD4RdRpqCzNgmQ. Öffentliche /exec-Adresse in assets/contact-form.js. Keine Änderung an Webseite-produktiv oder Domainkonfiguration.
 
 Bei Änderungen an assets/contact-form.js dessen SHA-256-Kurzversion im Script-src von support.html aktualisieren, anschließend scripts/version-styles.mjs ausführen.
+
+## Rücklinkkorrektur am 23. November 2026
+
+Der Rücklink der gemeinsamen Google-Ergebnisansicht führt nun auf https://www.brg-entwicklung.de/support.html#kontaktformular. Dies gilt für Aufrufe von Produktiv- und Testseite. Versandempfänger, Schutzmechanismen und Berechtigungen bleiben unverändert.
