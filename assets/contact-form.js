@@ -23,3 +23,4 @@
   });
   window.addEventListener('pageshow', () => { button.disabled = false; });
 })();
+

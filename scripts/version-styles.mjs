@@ -8,7 +8,7 @@ const names = ["styles", "home", "appearance"];
 const hashes = Object.fromEntries(names.map(name => [name,
   createHash("sha256").update(readFileSync(new URL(`assets/${name}.css`, root))).digest("hex").slice(0, 12)
 ]));
-const pages = ["index.html", "apps/mitgemischt/index.html", "support.html", "impressum.html", "datenschutz.html"];
+const pages = ["index.html", "apps/mitgemischt/index.html", "support.html", "impressum.html", "datenschutz.html", "motivation.html"];
 const sources = new Map(pages.map(page => [page, readFileSync(new URL(page, root), "utf8")]));
 // Ignore our own previous versions, so running the helper again is idempotent.
 const release = createHash("sha256").update(JSON.stringify(hashes) + [...sources.values()]

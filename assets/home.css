@@ -29,7 +29,7 @@
 .product-nav a{display:inline-flex;min-height:2.75rem;align-items:center;font-size:.875rem;line-height:1.5}
 .product-nav a[aria-current=page]{font-weight:750;text-decoration:none}
 @media(min-width:48rem){.principles-section,.apps-section{padding-block:5rem}.principle-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem}.app-feature{grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr)}.app-feature-copy{padding:2.5rem}.app-preview{min-height:20rem}.app-preview .mini-card{top:6rem}.product-nav a{font-size:1rem}}
-@media(min-width:62rem){.brand-hero .hero-inner{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);padding-block:4.5rem;gap:4rem}.brand-hero h1{font-size:5rem}.brand-note{padding-top:0;border-top:0;border-left:1px solid #FFFFFF;padding-left:2.5rem}}
+@media(min-width:62rem){.brand-hero .hero-inner{grid-template-columns:minmax(0,1fr);padding-block:4.5rem;gap:4rem}.brand-hero h1{font-size:5rem}.brand-note{padding-top:0;border-top:0;border-left:1px solid #FFFFFF;padding-left:2.5rem}}
 @media print{.brand-note{color:#000}.brand-note .eyebrow{color:#000}.app-preview,.product-nav{display:none}.app-feature{display:block}}
 
 /* Original SVG geometry is inlined to follow the page's appearance rather than

@@ -1,7 +1,7 @@
 /* Separate standalone Apps Script project. No triggers; no existing support code. */
 const CONTACT = Object.freeze({
   recipient: 'brg.entwicklung@gmail.com',
-  back: 'https://www.brg-entwicklung.de/support.html#kontaktformular',
+    back: 'https://www.brg-entwicklung.de/support.html#kontaktformular',
   maxDaily: 30
 });
 
@@ -27,7 +27,7 @@ function doPost(e) {
     const previous = properties.getProperty(idKey);
     if (previous) {
       const row = JSON.parse(previous);
-      if (row.fingerprint !== digest_(data.email + '\n' + data.name + '\n' + data.message)) {
+      if (row.fingerprint !== digest_(data.email + '\n' + data.name + '\n' + data.message + (data.app ? '\nApp: ' + data.app : ''))) {
         return contactPage_('Nachricht nicht gesendet', 'Diese Versandkennung wurde bereits verwendet. Bitte öffne das Formular erneut.', false);
       }
       return row.state === 'sent'
@@ -42,14 +42,14 @@ function doPost(e) {
       return contactPage_('Nachricht nicht gesendet', 'Die Versandgrenze ist erreicht. Bitte schreibe uns direkt per E-Mail oder versuche es später erneut.', false);
     }
     // Reserve before sending. An ambiguous send is never retried automatically.
-    const fingerprint = digest_(data.email + '\n' + data.name + '\n' + data.message);
+    const fingerprint = digest_(data.email + '\n' + data.name + '\n' + data.message + (data.app ? '\nApp: ' + data.app : ''));
     properties.setProperty(idKey, JSON.stringify({time:now, state:'pending', fingerprint}));
     properties.setProperty(dayKey, JSON.stringify({time:now, count:daily.count + 1}));
     properties.setProperty(hourKey, JSON.stringify({time:now, count:hourly.count + 1}));
     try {
       MailApp.sendEmail({to:CONTACT.recipient, replyTo:data.email, name:'BRG Website-Kontakt',
-        subject:'Website-Kontakt – ' + data.id,
-        body:'Neue Nachricht über das BRG-Kontaktformular.\n\nName: ' + (data.name || 'Nicht angegeben') + '\nAntwortadresse: ' + data.email + '\n\n' + data.message + '\n\nVersandkennung: ' + data.id});
+        subject:'Website-Kontakt – ' + (data.app ? data.app + ' – ' : '') + data.id,
+        body:'Neue Nachricht über das BRG-Kontaktformular.\n\n' + (data.app ? 'App: ' + data.app + '\n' : '') + 'Name: ' + (data.name || 'Nicht angegeben') + '\nAntwortadresse: ' + data.email + '\n\n' + data.message + '\n\nVersandkennung: ' + data.id});
       properties.setProperty(idKey, JSON.stringify({time:now, state:'sent', fingerprint}));
     } catch (_) {
       return contactPage_('Versandstatus unklar', 'Die Übermittlung konnte nicht bestätigt werden. Bitte sende diese Nachricht nicht erneut. Frage bei Bedarf direkt per E-Mail nach.', false);
@@ -65,7 +65,10 @@ function validateContact_(e) {
   const p = e.parameter || {};
   // Reject duplicate fields and automated honeypot submissions.
   if (Object.values(e.parameters || {}).some(v => v.length !== 1) || p.website) throw Error('Invalid fields');
-  const data = {name:String(p.name || '').trim(), email:String(p.email || '').trim(), message:String(p.message || '').trim(), id:String(p.requestId || '')};
+  const apps = {general:'Allgemein', mitgemischt:'Mitgemischt', barborant:'Barborant', sovira:'Sovira'};
+  const app = p.app == null ? '' : String(p.app);
+  if (app && !Object.prototype.hasOwnProperty.call(apps, app)) throw Error('Invalid app');
+  const data = {app:app ? apps[app] : '', name:String(p.name || '').trim(), email:String(p.email || '').trim(), message:String(p.message || '').trim(), id:String(p.requestId || '')};
   if (data.name.length > 100 || /[\r\n\x00]/.test(data.name) || data.email.length > 254 || !/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(data.email) || /[\r\n\x00]/.test(data.email) || !data.message || data.message.length > 5000 || !/^[0-9a-f-]{36}$/.test(data.id)) throw Error('Invalid content');
   return data;
 }

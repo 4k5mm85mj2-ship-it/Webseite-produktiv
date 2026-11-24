@@ -37,3 +37,7 @@ Bei Änderungen an assets/contact-form.js dessen SHA-256-Kurzversion im Script-s
 ## Rücklinkkorrektur am 23. November 2026
 
 Der Rücklink der gemeinsamen Google-Ergebnisansicht führt nun auf https://www.brg-entwicklung.de/support.html#kontaktformular. Dies gilt für Aufrufe von Produktiv- und Testseite. Versandempfänger, Schutzmechanismen und Berechtigungen bleiben unverändert.
+
+## Produktivübernahme am 24. November 2026
+
+Allgemeine Hilfe und native App-Auswahl: Allgemein / keine bestimmte App und Mitgemischt. App-Zuordnung im Betreff und Nachrichtentext; serverseitige Validierung und Doppelversandschutz aus dem getesteten Entwicklungsstand. Produktiver Endpunkt bleibt unverändert, wird auf eine neue Codeversion mit Rücklink https://www.brg-entwicklung.de/support.html#kontaktformular aktualisiert. Der separate Test-Endpunkt bleibt auf Version 3 erhalten. Keine Änderung an OAuth-Berechtigungen, Empfänger, Quoten, Triggern oder automatischen Eingangsbestätigungen.
